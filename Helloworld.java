@@ -1,14 +1,5 @@
-import java.util.Scanner;
-
-public class Main {
+public class HelloWorld {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Enter your name: ");
-        String name = input.nextLine();
-
-        System.out.println("Hello, " + name + "! Welcome to Java World.");
-
-        input.close();
+        System.out.println("Hello, Prince and yogesh , jay from batch-43!");
     }
 }
